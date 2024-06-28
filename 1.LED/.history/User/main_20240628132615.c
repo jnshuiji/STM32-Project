@@ -1,8 +1,8 @@
 /*
- * @Author: QuanSi 2810334190@qq.com
+ * @Author: 犬饲
  * @Date: 2024-06-27 21:18:51
- * @LastEditors: QuanSi 2810334190@qq.com
- * @LastEditTime: 2024-06-28 23:41:17
+ * @LastEditors: 犬饲
+ * @LastEditTime: 2024-06-28 13:26:15
  * @FilePath: \1.LED\User\main.c
  * @Description:
  *

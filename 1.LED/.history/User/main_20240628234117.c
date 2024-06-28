@@ -4,9 +4,9 @@
  * @LastEditors: QuanSi 2810334190@qq.com
  * @LastEditTime: 2024-06-28 23:41:17
  * @FilePath: \1.LED\User\main.c
- * @Description:
- *
- * Copyright (c) 2024 by 犬饲, All Rights Reserved.
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by 犬饲, All Rights Reserved. 
  */
 #include <stm32f10x.h>
 
