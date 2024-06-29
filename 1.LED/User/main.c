@@ -2,7 +2,7 @@
  * @Author: QuanSi 2810334190@qq.com
  * @Date: 2024-06-27 21:18:51
  * @LastEditors: QuanSi 2810334190@qq.com
- * @LastEditTime: 2024-06-29 12:04:23
+ * @LastEditTime: 2024-06-29 12:23:26
  * @FilePath: \1.LED\User\main.c
  * @Description:
  *
@@ -56,6 +56,10 @@ void LED_config(void)
 #define LED8_OFF GPIO_ResetBits(GPIOA, GPIO_Pin_7)
 #define LED8_ON GPIO_SetBits(GPIOA, GPIO_Pin_7)
 
+/**
+ * @description: 主函数
+ * @return {*}
+ */
 int main(void)
 {
     LED_config();
