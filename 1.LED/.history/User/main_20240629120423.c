@@ -10,10 +10,6 @@
  */
 #include <stm32f10x.h>
 
-/**
- * @description: LED初始化配置
- * @return {*}
- */
 void LED_config(void)
 {
     GPIO_InitTypeDef led_gpio;
