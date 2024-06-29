@@ -8,13 +8,13 @@
 
 ###内核
 
-![](C:\Users\86185\AppData\Roaming\marktext\images\2024-06-29-12-35-45-image.png)
+![](F:\Document\STM32%20Project\Template\img\CMSIS.png)
 
 ###Device
 
 StdPeriph Drivers全选，GPIO未知。
 
-![](C:\Users\86185\AppData\Roaming\marktext\images\2024-06-29-12-44-23-image.png)
+![](‪F:\Document\STM32 Project\Template\img\Device.png)
 
 ##main
 
