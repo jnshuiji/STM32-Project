@@ -3,6 +3,9 @@
         {
             "name": "Target 1",
             "includePath": [
+                "D:\\Keil_v5\\Packs\\ARM\\CMSIS\\6.1.0\\CMSIS\\Core\\Include",
+                "D:\\Keil_v5\\Packs\\Keil\\STM32F1xx_DFP\\2.4.1\\Device\\Include",
+                "D:\\Keil_v5\\Packs\\Keil\\STM32F1xx_DFP\\2.4.1\\Device\\StdPeriph_Driver\\inc",
                 "D:\\Keil_v5\\ARM\\ARMCLANG\\include",
                 "D:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux",
                 "D:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
