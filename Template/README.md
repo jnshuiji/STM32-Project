@@ -8,32 +8,32 @@
 
 ###内核
 
-![](F:\Document\STM32%20Project\Template\img\CMSIS.png)
+![](img/CMSIS.png)
 
 ###Device
 
 StdPeriph Drivers全选，GPIO未知。
 
-![](‪F:\Document\STM32 Project\Template\img\Device.png)
+![](img/Device.png)
 
 ##main
 
 默认组User，界面如下：
 
-![](C:\Users\86185\AppData\Roaming\marktext\images\2024-06-29-13-35-26-image.png)
+![](img/2024-06-29-13-35-26-image.png)
 
 ##包含路径
 
 keil可以直接在其安装目录下找到头文件，而vscode不行，所以在keil中添加包含路径以便vscode可以跳转函数对应的头文件。
 
-![](C:\Users\86185\AppData\Roaming\marktext\images\2024-06-29-13-24-42-image.png)
+![](img/2024-06-29-13-24-42-image.png)
 
 以1.LED为例，效果如下：
 
-![](C:\Users\86185\AppData\Roaming\marktext\images\2024-06-29-13-26-43-image.png)
+![](img/2024-06-29-13-26-43-image.png)
 
 ##调试
 
 使用ST-Link
 
-![](C:\Users\86185\AppData\Roaming\marktext\images\2024-06-29-13-29-15-image.png)
+![](img/2024-06-29-13-29-15-image.png)
