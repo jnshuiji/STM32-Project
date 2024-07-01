@@ -1,7 +1,7 @@
 #include <stm32f10x.h>
 
 /**
- * @description: LED初始化配置
+ * @description: LED初始化
  * @return {*}
  */
 void LED_config(void)

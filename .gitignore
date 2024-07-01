@@ -1,0 +1,9 @@
+
+#vscode工作区配置文件
+.vscode/
+
+#vscode插件history生成的备份文件
+.history/
+
+#proteus仿真软件生成的备份文件
+Project Backups/
