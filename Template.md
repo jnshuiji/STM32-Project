@@ -6,8 +6,6 @@
 
 该模板使用**Run-Time Environment**来配置库函数的使用。
 
-![image-20240701143259298](./.img/Template/image-20240701143259298.png)
-
 ### 内核
 
 ![CMSIS.png](./.img/Template/CMSIS.png)
