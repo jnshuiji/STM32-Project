@@ -419,6 +419,16 @@
               <FileType>5</FileType>
               <FilePath>.\User\USART.h</FilePath>
             </File>
+            <File>
+              <FileName>DS18B20.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\DS18B20.c</FilePath>
+            </File>
+            <File>
+              <FileName>DS18B20.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\DS18B20.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

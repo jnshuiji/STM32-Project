@@ -36,7 +36,7 @@ u8 TM1637_Ack()
     TM1637_SDA_H;
     TM1637_SCL_H;
     delay_us(1);
-    ack = TM1637_SDA;
+    ack = GPIO_ReadInputDataBit(TM1637_GPIO_PORT, TM1637_SDA);
     TM1637_SCL_L;
     return ack;
 }
@@ -90,7 +90,7 @@ u8 Key_TM1637()
     return Key;
 }
 
-void Display_TM1637(u8 grid, u8 sg)
+void TM1637_Display(u8 grid, u8 sg)
 {
     TM1637_Start();
     TM1637_Write_Byte(TM1637_FixedAddress_Mode);

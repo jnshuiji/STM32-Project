@@ -1,10 +1,10 @@
-/*** 
+/***
  * @Author: QuanSi 2810334190@qq.com
  * @Date: 2024-07-11 21:33:22
  * @LastEditors: QuanSi 2810334190@qq.com
  * @LastEditTime: 2024-07-13 16:16:53
- * @Description: 
- * @Copyright (c) 2024 by QuanSi 2810334190@qq.com, All Rights Reserved. 
+ * @Description:
+ * @Copyright (c) 2024 by QuanSi 2810334190@qq.com, All Rights Reserved.
  */
 #ifndef TM1637_H
 #define TM1637_H
@@ -15,7 +15,7 @@
 #define BITBAND_REG(REG, BIT) (*((u32 volatile *)(0x42000000u + (((u32) & (REG) - (u32)0x40000000u) << 5) + (((u32)(BIT)) << 2))))
 
 /*---------------------------------------------------------I2C---------------------------------------------------------*/
-//可根据实际连接的引脚进行修改
+// 可根据实际连接的引脚进行修改
 #define TM1637_GPIO_PORT GPIOB
 #define TM1637_GPIO_CLK RCC_APB2Periph_GPIOB
 #define TM1637_SCL GPIO_Pin_6
@@ -60,6 +60,6 @@ u8 TM1637_Ack();
 void TM1637_Write_Byte(u8 dat);
 void TM1637_Setluminance(u8 luminance);
 u8 Key_TM1637();
-void Display_TM1637(u8 grid, u8 sg);
+void TM1637_Display(u8 grid, u8 sg);
 
 #endif // TM1637_H
