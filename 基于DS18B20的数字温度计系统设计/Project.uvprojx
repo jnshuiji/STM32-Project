@@ -390,14 +390,34 @@
               <FilePath>.\User\main.c</FilePath>
             </File>
             <File>
-              <FileName>IIC.c</FileName>
+              <FileName>TM1637.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\IIC.c</FilePath>
+              <FilePath>.\User\TM1637.c</FilePath>
             </File>
             <File>
-              <FileName>IIC.h</FileName>
+              <FileName>TM1637.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\User\IIC.h</FilePath>
+              <FilePath>.\User\TM1637.h</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\delay.h</FilePath>
+            </File>
+            <File>
+              <FileName>USART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\USART.c</FilePath>
+            </File>
+            <File>
+              <FileName>USART.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\USART.h</FilePath>
             </File>
           </Files>
         </Group>
